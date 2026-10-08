@@ -1,7 +1,5 @@
-# Northstar POS v0.13 — Mobile UX refinement
+# Northstar POS v0.14 — mobile cart refresh
 
-Upload all extracted files to the GitHub Pages repository root. Currency display follows Settings → Country; changing country automatically proposes MYR/INR/AED but administrators may override the currency code. This changes display formatting, **not** exchange conversion of pre-existing values.
+Deploy all files at repository root on GitHub Pages. Includes mobile cart cards with emoji fallbacks, touch quantity stepper, tap-to-edit bottom sheet, sticky payment and desktop keyboard grid. Camera scans auto-add standard-unit products on touch phones; weighted goods retain quantity confirmation.
 
-Mobile sale items render as cards; empty sale is centered; navigation is a collapsible drawer. Login, demo data, scanner and desktop shortcuts are retained.
-
-GitHub Pages remains a client-side demo, not a secure multi-counter POS. Camera scanner requires HTTPS.
+Demo data uses browser localStorage, not secure branch-server operations. Scanner decoder is loaded from CDN and requires internet for first library load. Use HTTPS for camera permission.
