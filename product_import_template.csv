@@ -1,0 +1,4 @@
+name,sku,barcode,group,unit,price,cost,margin,stock,tax,icon
+Jasmine Rice 10kg,JASM-RICE-10,9556111000021,Rice & Grains,bag,39.90,32.00,24.69,20,0,🍚
+Fresh Yogurt 500g,FRESH-YOG-500,9556111000038,Dairy,pcs,5.90,4.20,40.48,32,0,🥛
+Red Dragon Fruit per kg,DRAGON-FRUIT,9556111000045,Fruit & Vegetables,kg,12.90,8.50,51.76,14,0,🍎
